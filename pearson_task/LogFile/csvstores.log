@@ -1,0 +1,245 @@
+2022-03-28 01:01:25,218 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 14008 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 01:01:25,222 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 01:01:25,313 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 01:01:25,314 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 01:01:26,728 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 01:01:26,752 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces. 
+2022-03-28 01:01:28,441 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 01:01:28,465 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 01:01:28,465 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 01:01:28,878 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 01:01:28,880 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3542 ms 
+2022-03-28 01:01:29,044 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 01:01:29,054 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 01:01:29,099 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 01:01:29,162 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 07:30:25,489 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 15992 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 07:30:25,514 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 07:30:25,635 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 07:30:25,636 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 07:30:27,005 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 07:30:27,028 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces. 
+2022-03-28 07:30:28,378 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 07:30:28,409 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 07:30:28,410 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 07:30:28,641 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 07:30:28,643 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3005 ms 
+2022-03-28 07:30:28,823 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 07:30:28,832 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 07:30:28,872 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 07:30:28,926 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 07:36:26,729 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 10676 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 07:36:26,751 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 07:36:26,867 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 07:36:26,867 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 07:36:27,964 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 07:36:27,986 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces. 
+2022-03-28 07:36:29,143 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 07:36:29,162 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 07:36:29,163 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 07:36:29,360 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 07:36:29,361 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2492 ms 
+2022-03-28 07:36:29,464 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 07:36:29,469 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 07:36:29,500 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 07:36:29,535 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 09:20:41,314 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 15824 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 09:20:41,363 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 09:20:41,699 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 09:20:41,702 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 09:20:43,231 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 09:20:43,254 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces. 
+2022-03-28 09:20:44,279 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 09:20:44,295 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 09:20:44,296 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 09:20:44,477 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 09:20:44,478 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2774 ms 
+2022-03-28 09:20:44,610 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 09:20:44,615 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 09:20:44,644 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 09:20:44,692 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 09:31:13,984 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 1184 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 09:31:14,013 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 09:31:14,134 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 09:31:14,136 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 09:31:15,337 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 09:31:15,358 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces. 
+2022-03-28 09:31:16,315 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 09:31:16,332 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 09:31:16,332 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 09:31:16,490 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 09:31:16,491 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2354 ms 
+2022-03-28 09:31:16,590 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 09:31:16,594 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 09:31:16,618 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 09:31:16,651 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 09:34:00,280 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 2724 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 09:34:00,284 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 09:34:00,400 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 09:34:00,401 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 09:34:01,800 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 09:34:01,898 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces. 
+2022-03-28 09:34:02,932 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 09:34:02,949 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 09:34:02,949 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 09:34:03,108 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 09:34:03,109 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2707 ms 
+2022-03-28 09:34:03,208 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 09:34:03,214 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 09:34:03,236 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 09:34:03,277 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
+2022-03-28 10:45:08,482 [restartedMain] [36mc.p.StoreApplication[0;39m - Starting StoreApplication using Java 15.0.2 on DESKTOP-0C6CSU8 with PID 10116 (F:\store\store\target\classes started by Dell in F:\store\store) 
+2022-03-28 10:45:08,501 [restartedMain] [36mc.p.StoreApplication[0;39m - No active profile set, falling back to 1 default profile: "default" 
+2022-03-28 10:45:08,577 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2022-03-28 10:45:08,578 [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2022-03-28 10:45:09,935 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2022-03-28 10:45:09,958 [restartedMain] [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces. 
+2022-03-28 10:45:11,447 [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[0;39m - Tomcat initialized with port(s): 8090 (http) 
+2022-03-28 10:45:11,472 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Starting service [Tomcat] 
+2022-03-28 10:45:11,473 [restartedMain] [36mo.a.c.c.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/9.0.60] 
+2022-03-28 10:45:11,639 [restartedMain] [36mo.a.c.c.C.[.[.[/][0;39m - Initializing Spring embedded WebApplicationContext 
+2022-03-28 10:45:11,640 [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3061 ms 
+2022-03-28 10:45:11,732 [restartedMain] [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class 
+2022-03-28 10:45:11,736 [restartedMain] [36mo.a.c.c.StandardService[0;39m - Stopping service [Tomcat] 
+2022-03-28 10:45:11,768 [restartedMain] [36mo.s.b.a.l.ConditionEvaluationReportLoggingListener[0;39m - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2022-03-28 10:45:11,804 [restartedMain] [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+ 
